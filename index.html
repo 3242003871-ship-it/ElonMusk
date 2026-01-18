@@ -62,17 +62,22 @@
       max-width: 600px;
     }
 
-    .btn {
-            background: linear-gradient(90deg, #ff2a2a, #3fa9f5);
-            color: #fff;
-            padding: 14px 30px;
-            border: none;
-            border-radius: 30px;
-            font-weight: 600;
-            cursor: pointer;
-            transition: 0.3s ease;
-            box-shadow: 0 0 20px rgba(255,0,0,0.4);
-        }
+   .btn {
+  display: inline-block;
+  margin-top: 15px;
+  padding: 10px 20px;
+  background: linear-gradient(135deg, #14b8a6, #8b5cf6); /* teal → purple */
+  color: #fff;
+  text-decoration: none;
+  border-radius: 5px;
+  font-weight: bold;
+  transition: background 0.3s ease, transform 0.2s ease;
+    }
+
+.btn:hover {
+  background: linear-gradient(135deg, #0d9488, #7c3aed); /* darker on hover */
+  transform: translateY(-2px);
+    }
 
     section {
       padding: 40px 20px;
